@@ -12,7 +12,7 @@ int main()
     cout << "Wiersz o dlugosci a: " << endl;
     for (i = 1; i <= a; i++) {
         cout << "*";
-      
+
     }
     cout << endl;
     cout << "Kolumn o dlugosci b: " << endl;
@@ -44,8 +44,25 @@ int main()
         }
         cout << endl;
     }
+    cout << endl;
+    cout << "Trojkat prostokatny rownoramienny z katem prostym w lewym dolnym rogu: " << endl;
 
-   
+    for (i = 1; i <= a; i++) {
+        for (j = 1; j <= i; j++)
+            cout << "* ";
+        cout << endl;
+    }
+    cout << endl;
+    cout << "Trojkat prostokatny rownoramienny z katem prostym w prawym gornym rogu: " << endl;
+
+    for (i = 1; i <= a; i++) {
+        for (j = 1; j < i; j++)
+            cout << "  ";
+        for (j = 1; j <= a - i + 1; j++)
+            cout << "* ";
+        cout << endl;
+    }
+
     return 0;
 }
 
