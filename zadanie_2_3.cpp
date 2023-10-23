@@ -64,7 +64,7 @@ int main()
 		break;
 	case 12:
 		cout << "Grudzien" << endl;
-		cout << "Ilosc dni: 30" << endl;
+		cout << "Ilosc dni: 31" << endl;
 		cout << "Pogoda: pochmurno" << endl;
 		break;
 	default:
