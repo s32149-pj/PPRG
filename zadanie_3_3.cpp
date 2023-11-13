@@ -18,7 +18,7 @@ int main()
     }
     if (delta == 0)
     {
-        cout << "Rownanie ma jedno rozwiazanie x = : " << -b / (2 * a) << endl;
+        cout << "Rownanie ma jedno rozwiazanie x =  " << -b / (2 * a) << endl;
 
         return(0);
     }
@@ -26,7 +26,7 @@ int main()
 
     if (delta > 0)
     {
-        cout << "Rownanie ma dwa rozwiazania x_1 = : " << (-b + delta) / (2 * a) << " x_2 = " << (-b - delta) / (2 * a) << endl;
+        cout << "Rownanie ma dwa rozwiazania: x_1 =  " << (-b + delta) / (2 * a) << " x_2 = " << (-b - delta) / (2 * a) << endl;
         return(0);
     }
 
